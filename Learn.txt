@@ -1,0 +1,3 @@
+condition 1 :改乱工作区内容，丢弃工作区修改， git checkout -- file
+condition 2 :改乱工作区内容，并添加到暂存区，丢弃修改 git reset HEAD <file>, 回到condition 1
+condition 3 :以及添加到暂存区，git reset --hard commit_id
